@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+venv/
+
+# Airflow logs
+logs/
+*/logs/*
+
+# Airflow DB
+airflow.db
+*.db
+
+# Local environment variables
+.env
+.project/.env
+project/.env
+
+# OS files
+.DS_Store
+
+# Airflow generated files
+config/airflow.cfg
